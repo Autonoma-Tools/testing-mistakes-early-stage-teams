@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "slug": "testing-mistakes-early-stage-teams",
+  "step": "created",
+  "completed_specs": [],
+  "pending_specs": ["snippet-1", "snippet-2", "snippet-3"],
+  "created_at": "2026-04-15T11:11:48Z",
+  "updated_at": "2026-04-15T11:11:48Z"
+}
