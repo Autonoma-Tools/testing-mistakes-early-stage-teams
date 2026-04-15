@@ -1,0 +1,22 @@
+{
+  "name": "testing-mistakes-early-stage-teams",
+  "version": "0.1.0",
+  "description": "Companion code for the Autonoma blog post 'The Two Things Every Early-Stage Team Gets Wrong About Testing'.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:list": "playwright test --list",
+    "test:before": "playwright test before/",
+    "test:after": "playwright test after/"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
